@@ -1,0 +1,127 @@
+[
+	[
+		{
+			"name": "Chemical Analysis",
+			"types": [
+				"PMI Testing",
+				"Energy Dispersive X-ray",
+				"FTIR Analysis",
+				"Optical Emission",
+				"Wavelength Dispersive X-ray",
+				"X-ray Diffraction",
+				"X-ray Fluorescence"
+			]
+		},
+		{
+			"name": "Composites",
+			"types": [
+				"R&D of new materials",
+				"Reverse engineering"
+			]
+		},
+		{
+			"name": "Corrosion",
+			"types": [
+				"CASS",
+				"Immersion Corrosion",
+				"Salt Fog"
+			]
+		},
+		{
+			"name": "Failure Analysis",
+			"types": [
+				"Root Cause Analysis",
+				"Joint Laboratory Inspection",
+				"Expert Witness Services",
+				"On Site Investigation"
+			]
+		}
+	],
+	[
+		{
+			"name": "Welder Certification",
+			"types": [
+				"Weld Procedure Specification",
+				"Welder Performance Qualification"
+			]
+		},
+		{
+			"name": "Mechnical Testing",
+			"types": [
+				"Bend Testing",
+				"Drop Weight Tear Test",
+				"Flexural Testing",
+				"Impact Resistance",
+				"Hardness Testing",
+				"Micro Hardness",
+				"Shear Testing",
+				"Tensile Testing",
+				"Abrasion Testing",
+				"Adhesion Testing"
+			]
+		},
+		{
+			"name": "Metallurgical",
+			"types": [
+				"Macroetch Exam",
+				"Metallographic Exam",
+				"Sample Preparation",
+				"Stereo Microscopy"
+			]
+		},
+		{
+			"name": "Metals and Alloys",
+			"types": [
+				"Mechanical Testing",
+				"Chemical Analysis",
+				"Root Cause Analysis",
+				"Failure Analysis",
+				"On Site Investigation",
+				"Microstructure Analysis",
+				"Corrosion Testing",
+				"Specimen Machining",
+				"Fracture Mode & Mechanism"
+			]
+		}
+	],
+	[
+		{
+			"name": "Non-destructive Testing",
+			"types": [
+				"Dye Penetrant",
+				"Eddy Current Testing",
+				"Ground Penetrating Radar",
+				"Guided Wave Ultrasound",
+				"Magnetic Particle",
+				"Portable Hardness",
+				"Strain Gauge Testing",
+				"Ultrasonic Flaw Inspection",
+				"Visual Inspection",
+				"X-ray",
+				"Weld Inspection"
+			]
+		},
+		{
+			"name": "Polymer Testing",
+			"types": [
+				"Root Cause Analysis",
+				"Surface Analysis",
+				"Oxidative Degradation",
+				"Chemical Attack",
+				"Adhesion Problems",
+				"Additive Issues",
+				"Voids and Blisters",
+				"Discoloration",
+				"Fracture Mode & Mechanism"
+			]
+		},
+		{
+			"name": "Surface Analysis",
+			"types": [
+				"Particle Analysis",
+				"Scanning Electron Microscopy"
+			]
+		}
+	]
+
+]

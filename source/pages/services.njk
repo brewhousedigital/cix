@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+title: "Services"
+permalink: /services/
+---
+
+<h1 class="display-1 mb-5">Services</h1>
+
+<div class="row accordion" id="services-accordion">
+	{% for list in services %}
+		<div class="col-lg-4">
+			{% for service in list %}
+			<div class="">
+				<div class="card-header" id="heading{{ service.name|slugURL }}">
+					<h2 class="mb-0">
+						<button class="btn btn btn-block text-left"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapse{{ service.name|slugURL }}"
+								aria-expanded="false"
+								aria-controls="collapse{{ service.name|slugURL }}">
+							{{ service.name }}
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapse{{ service.name|slugURL }}"
+					 class="collapse"
+					 aria-labelledby="heading{{ service.name|slugURL }}"
+					 {#data-parent="#services-accordion"#}>
+					<div class="card-body">
+						<ul>
+							{% for item in service.types %}
+								<li>{{ item }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div><!-- end col -->
+	{% endfor %}
+</div><!-- end accordion container -->
