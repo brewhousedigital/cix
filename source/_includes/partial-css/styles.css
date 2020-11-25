@@ -1,0 +1,60 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.btn {
+	font-weight: 700;
+}
+
+header .header-logo {
+	color: #222;
+}
+
+header .header-logo h1 {
+	font-size: 50px;
+}
+
+header a.header-link {
+	display: inline-block;
+	padding: 20px 20px;
+	font-weight: 700;
+	text-decoration: none;
+	border: 2px solid transparent;
+	color: #222;
+	opacity: 0.8;
+	transition: all 200ms;
+}
+header a.header-link:hover,
+header a.header-link:focus{
+	text-decoration: none;
+	background-color: #ecf0f1;
+	opacity: 1;
+}
+
+.post-header-bg {
+	background-color: #ecf0f1;
+}
+
+.homepage-bg {
+
+}
+.homepage-bg h2 {
+	top: 33%;
+	left: 0;
+	padding: 30px;
+	position: absolute;
+	font-size: 60px;
+	color: #fff;
+}
+
+.homepage-contact-form {
+	background-color: #2ecc71;
+	text-align: center;
+	padding: 45px 0;
+	margin-bottom: 60px;
+}
+
+.post-image-thumbnail {
+	max-width: 250px;
+}

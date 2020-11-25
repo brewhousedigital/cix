@@ -13,23 +13,26 @@
 </head>
 <body>
 
-<header class="container">
-	<div class="row justify-content-between py-3 mb-5">
-		<h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+<div class="container">
+	{% set headerClasses = "row no-gutters align-items-center justify-content-between" %}
+	{% set headerClassesPage = "border-bottom mb-5" %}
+	<header class="{{ headerClasses}} {% if page.url !== "/" %}{{ headerClassesPage }}{% endif %}">
+		<a href="/" class="mr-auto text-decoration-none header-logo">
+			<h1 class="mb-0">CIX, Inc</h1>
+		</a>
 
-		<div>
-			<a href="/posts/" class="btn btn-primary">Posts</a>
-			<a href="/about/" class="btn btn-primary">About</a>
-		</div>
-	</div><!-- end row -->
-</header><!-- end container -->
+		<a href="/about/" class="header-link">About Us</a>
+		<a href="#" class="header-link">Services</a>
+		<a href="/news/" class="header-link">News</a>
+		<a href="#" class="header-link">Contact Us</a>
+	</header><!-- end row -->
 
-<main>
-	{{ content | safe }}
-</main>
+	<main>
+		{{ content | safe }}
+	</main>
 
-<footer></footer>
-
+	<footer></footer>
+</div><!-- end container -->
 
 
 {% include "source/_includes/components/footer-js-tags.njk" %}

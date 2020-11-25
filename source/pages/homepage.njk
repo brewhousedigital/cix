@@ -4,13 +4,69 @@ title: "Home"
 permalink: /
 ---
 
+<div class="homepage-bg position-relative mb-5">
+	<video autoplay muted class="w-100 rounded">
+		<source src="https://i.imgur.com/rowTpKz.mp4">
+	</video>
 
-<div class="container">
-	<h1>Latest 3 Posts</h1>
+	<h2 class="text-center">We provide a variety of testing services including Mechanical, metallurgical, non-destructive, chemical, and failure analysis.</h2>
+</div><!-- end homepage bg -->
 
-	{% set postslist = collections.posts | head(-3) %}
+
+
+
+<h2>Where we solve problems</h2>
+
+<div class="row text-center pb-5 border-bottom mb-5">
+	<div class="col-md">
+		<div><img src="/images/area-rio-brazil.jpg" alt="Brazil" class="img-fluid rounded"></div>
+		<p>Brazil</p>
+	</div><!-- end col -->
+
+	<div class="col-md">
+		<div><img src="/images/area-somewhere-china.jpg" alt="China" class="img-fluid rounded"></div>
+		<p>China</p>
+	</div><!-- end col -->
+
+	<div class="col-md">
+		<div><img src="/images/area-milan-italy.jpg" alt="Italy" class="img-fluid rounded"></div>
+		<p>Italy</p>
+	</div><!-- end col -->
+
+	<div class="col-md">
+		<div><img src="/images/area-london-uk.jpg" alt="United Kingdom" class="img-fluid rounded"></div>
+		<p>United Kingdom</p>
+	</div>
+
+	<div class="col-md">
+		<div><img src="/images/area-pittsburgh-usa.jpg" alt="United States" class="img-fluid rounded"></div>
+		<p>United States</p>
+	</div>
+</div><!-- end row -->
+
+<div class="homepage-contact-form">
+<h2>Let's chat</h2>
+
+<form id="" class="mx-auto" style="max-width: 400px;">
+	<div class="form-group">
+		<label for="contact-email">Email address</label>
+		<input type="email" class="form-control form-control-lg" id="contact-email" aria-describedby="emailHelp">
+	</div>
+	<div class="form-group">
+		<label for="contact-message">Your needs</label>
+		<textarea class="form-control form-control-lg" id="contact-message"></textarea>
+	</div>
+	<button type="submit" class="btn btn-light">Submit</button>
+</form>
+</div>
+
+
+
+
+{#<h1>Latest 3 Posts</h1>
+
+{% set postslist = collections.posts | head(-3) %}
 	{% set postslistCounter = collections.posts | length %}
 	{% include "postslist.njk" %}
 
-	<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
-</div><!-- end container -->
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>#}
